@@ -7,7 +7,9 @@
     </a>
     <ul>
       <li v-for="(link, index) in links" :key="index">
-       <a :href="link.url">
+       <a :href="link.url"
+       :class="{'active': link.current}"
+       >
          {{link.text}}
        </a>
       </li>
