@@ -10,8 +10,8 @@
         characters
       </a>
       </li>
-      <li class="active">
-        <a href="#">
+      <li >
+        <a  class="active" href="#">
         comics
       </a>
       </li>
@@ -93,14 +93,19 @@ export default {
     margin: 10px;
    
     color: #1E0000;
+    &:hover,
+    &.active{
+      color: #0067F8;
+      
+     
+     
+    }
+    
     
     
   } 
 }
-.active a{
-  color: #0067F8;
-}    
-    
+ 
     
     
   
