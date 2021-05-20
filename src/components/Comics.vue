@@ -1,8 +1,12 @@
 <template>
-<div class="cols container">
-  <p>
+<div class="cols">
+  <div class="container">
+     <p>
     loghi da inserire
   </p>
+
+  </div>
+ 
 
 </div>
   

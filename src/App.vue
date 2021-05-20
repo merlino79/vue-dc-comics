@@ -48,6 +48,16 @@ export default {
   margin: 0 auto;
   
 }
+ul{
+  list-style: none;;
+}
+a{
+   text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
 
 </style>
 

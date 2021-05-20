@@ -1,8 +1,12 @@
 <template>
-<div class="cols container">
-  <h3>
+<div class="cols">
+  <div class="container">
+     <h3>
     -----> Contect goes here --------> 
   </h3>
+
+  </div>
+ 
   
 </div>
   
