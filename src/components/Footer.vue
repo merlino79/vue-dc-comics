@@ -1,8 +1,12 @@
 <template>
 <footer>
-  <!-- <img src="../assets/img/footer-bg.jpg" alt="footer-bg"> -->
+  
    
   <div class="cols">
+
+    <div class="img-logo">
+
+    </div>
   
     <div class="footer-up container">
        
@@ -190,6 +194,7 @@ export default {
 
 <style lang="scss" scoped>
 .cols{
+  position: relative;
   background-image: url(../assets/img/footer-bg.jpg);
   width: 100%;
   height: 370px;
@@ -238,6 +243,19 @@ export default {
       }
     }
      
+  }
+
+  .img-logo{
+    position: absolute;
+    top: 0%;
+    right: 20%;
+     background-image: url(../assets/img/dc-logo.png);
+     background-size: cover;
+     width: 500px;
+     height: 500px;
+     overflow: hidden;
+     
+
   }
   
   
