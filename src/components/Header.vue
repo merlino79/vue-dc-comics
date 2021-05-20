@@ -1,8 +1,8 @@
 <template>
 
-<div>
+<header>
   ale
-</div>
+</header>
 
   
 </template>
@@ -14,6 +14,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+header{
+ width: 100%;
+ height: 100px;
+ background-color: aqua;
+}
 
 </style>
