@@ -4,25 +4,25 @@
      <!-- <img src="../assets/img/footer-bg.jpg" alt="footer-bg"> -->
     <div class="footer-up container">
       <div class="link">
-       <ul>
-         <li>
-           <a href="#">
-             dc comics
-           </a>
-           
-         </li>
-         <li>
-            <a href="#">
-             dc 
-           </a>
-         </li>
-         <li>
-            <a href="#">
-             sites
-           </a>
-         </li>
-       </ul>
+        <div class="dc-comics">
+        <h3>
+          dc comics
+        </h3>
       </div>
+      <div class="dc">
+        <h3>
+          dc
+        </h3>
+      </div>
+      <div class="sites">
+        <h3>
+          sites
+        </h3>
+      </div>
+
+      </div>
+      
+     
        
        
           
@@ -47,24 +47,31 @@ export default {
 
 <style lang="scss" scoped>
 .cols{
-  position: relative;
-}
-.footer-up{
   width: 100%;
-  height: 370px;
+ 
+  .link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 40%;
+    height: 40px;
+  }
   
-   .logo{
-    position: absolute;
-    top: 0%;
-    right: 20%;
-    .img-logo{
-      
     
+    
+    
+ 
 
-    }
-   } 
+
+  
+
+   
+  
+  
+   
    
  
+
 
 }
 

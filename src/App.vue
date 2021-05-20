@@ -49,7 +49,8 @@ export default {
   
 }
 ul{
-  list-style: none;;
+  list-style: none;
+   display: flex;
 }
 a{
    text-decoration: none;

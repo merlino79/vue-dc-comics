@@ -83,15 +83,15 @@ export default {
   width: 100%;
   ul{
     width: 100%;
-    display: flex;
+   
     justify-content: end;
     
-    list-style: none;
+    
   } 
   a{
     line-height: 120px;
     margin: 10px;
-    text-decoration: none;
+   
     color: #1E0000;
     
     
