@@ -1,6 +1,7 @@
 <template>
 
 <header class="cols container">
+
     <a href="/">
     <img src="../assets/img/dc-logo.png" alt="">
     </a>
@@ -9,8 +10,8 @@
         characters
       </a>
       </li>
-      <li>
-        <a href="/">
+      <li class="active">
+        <a href="#">
         comics
       </a>
       </li>
@@ -56,6 +57,9 @@
       </li>
       
     </ul>
+
+  
+    
  </header>
   
 
@@ -71,23 +75,46 @@ export default {
 }
 </script>
 
-<style  lanf="scss" scoped>
+<style  lang="scss" scoped>
 .cols{
 
   display: flex;
   height: 120px;
   width: 100%;
+  ul{
+    
+    display: flex;
+    justify-content: end;
+    list-style: none;
+  } 
   a{
-    color: black;
-  }
-  
-  
-  
-  
-  
-  
-  
+    line-height: 120px;
+    margin: 10px;
+    text-decoration: none;
+    color: #1E0000;
+    
+    
+  } 
 }
+.active a{
+  color: lightskyblue;
+}    
+    
+    
+    
+  
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+
+
 
 
 
