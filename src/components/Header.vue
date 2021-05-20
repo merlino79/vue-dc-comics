@@ -82,9 +82,10 @@ export default {
   height: 120px;
   width: 100%;
   ul{
-    
+    width: 100%;
     display: flex;
     justify-content: end;
+    
     list-style: none;
   } 
   a{
@@ -97,7 +98,7 @@ export default {
   } 
 }
 .active a{
-  color: lightskyblue;
+  color: #0067F8;
 }    
     
     
