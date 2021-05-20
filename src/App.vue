@@ -3,6 +3,8 @@
 
     <Header />
     <Main />
+    <Comics />
+    <Footer />
     
     
   </div>
@@ -12,6 +14,8 @@
 
 import Header from '@/components/Header.vue'
 import Main from '@/components/Main.vue'
+import Comics from '@/components/Comics.vue'
+import Footer from '@/components/Footer.vue'
 
 
 
@@ -22,6 +26,8 @@ export default {
   components: {
     Header,
     Main,
+    Comics,
+    Footer,
     
     
   }
