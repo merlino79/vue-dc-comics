@@ -110,7 +110,7 @@ export default {
   a{
     line-height: 120px;
     margin: 10px;
-   
+    text-transform: uppercase;
     color: #1E0000;
     &:hover,
     &.active{
