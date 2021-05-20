@@ -5,6 +5,7 @@
     <Main />
     <Comics />
     <Footer />
+    <FooterBotton />
     
     
   </div>
@@ -16,6 +17,7 @@ import Header from '@/components/Header.vue'
 import Main from '@/components/Main.vue'
 import Comics from '@/components/Comics.vue'
 import Footer from '@/components/Footer.vue'
+import FooterBotton from '@/components/FooterBotton.vue'
 
 
 
@@ -28,6 +30,7 @@ export default {
     Main,
     Comics,
     Footer,
+    FooterBotton,
     
     
   }
