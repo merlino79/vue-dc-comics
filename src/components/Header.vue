@@ -4,7 +4,10 @@
 
     <a href="/">
     <img src="../assets/img/dc-logo.png" alt="">
+  
+
     </a>
+   
     <ul>
       <li v-for="(link, index) in links" :key="index">
        <a :href="link.url"
@@ -16,6 +19,7 @@
       
       
     </ul>
+    
 
   
     

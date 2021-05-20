@@ -4,9 +4,6 @@
    
   <div class="cols">
 
-    <div class="img-logo">
-
-    </div>
   
     <div class="footer-up container">
        
@@ -166,7 +163,13 @@
          </div>
 
       </div>
+
+      <div class="img-logo">
+
+       </div>
        
+
+    
       
      
        
@@ -194,7 +197,9 @@ export default {
 
 <style lang="scss" scoped>
 .cols{
-  position: relative;
+  
+ 
+  
   background-image: url(../assets/img/footer-bg.jpg);
   width: 100%;
   height: 370px;
@@ -221,6 +226,12 @@ export default {
       color: #879587;
     }
   }
+
+  .footer-up{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
  
 
    
@@ -246,14 +257,20 @@ export default {
   }
 
   .img-logo{
-    position: absolute;
-    top: 0%;
-    right: 20%;
-     background-image: url(../assets/img/dc-logo.png);
-     background-size: cover;
-     width: 500px;
-     height: 500px;
-     overflow: hidden;
+   
+   
+     background-image: url(../assets/img/dc-logo-bg.png);
+     background-size: 80%;
+     background-repeat: no-repeat;
+     background-position: center;
+
+     
+     
+     width: 50%;
+     height: 100%;
+     
+    
+    
      
 
   }

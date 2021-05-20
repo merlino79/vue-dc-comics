@@ -1,7 +1,8 @@
 <template>
 <div class="cols">
   <div class="container">
-    <ul>
+    <div class="comics">
+      <ul>
       <li>
         <img src="../assets/img/buy-comics-digital-comics.png" alt="comics">
         <a href="#">digital comics</a>
@@ -24,6 +25,9 @@
       </li>
 
     </ul>
+
+    </div>
+    
    
 
   </div>
@@ -50,10 +54,18 @@ export default {
   background-color: #0282F9;
  
 }
+.comics{
+   
+   width: 85%;
+   flex-basis: calc(100% / 5);
+ 
+
+}
 ul{
   
-  justify-content: space-around;
-  padding: 20px;
+  justify-content: space-between;
+ 
+  
   a{
     top: 0%;
     text-transform: uppercase;
