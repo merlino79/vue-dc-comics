@@ -39,7 +39,9 @@ export default {
 
 <style lang="scss">
 
-@import './assets/style/general.scss'
+@import './assets/style/general.scss';
+@import './assets/style/utilitis.scss';
+
 
 
 
