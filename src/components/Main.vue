@@ -14,8 +14,18 @@
 </template>
 
 <script>
+import products from "@/assets/data/dc-comics.js"; 
 export default {
-  name: 'Main'
+  name: 'Main',
+  data(){
+    return{
+      products
+    }
+  },
+  mounted(){
+    console.log(products);
+  }
+
 
 }
 </script>

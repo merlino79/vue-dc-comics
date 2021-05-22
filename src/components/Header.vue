@@ -34,9 +34,11 @@
 <script>
 export default {
   name: 'Header',
+  
   props:{
         menu: Array
-      }, 
+      },
+
   data(){
 
     return{
