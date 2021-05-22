@@ -1,18 +1,27 @@
 <template>
-  <div class="cols">
-    <div class="box-img">
-      <img :src="card.thumb" :alt="card.type">
-    <h3>
-       {{card.type}}
-    </h3>
 
-    </div>
+   <div class="cols">
+     <ul>
+       <li>
+         <a href="/">
+             <img :src="card.thumb" :alt="card.type">
+              
+         </a>
+
+       </li>
+     </ul>
+   
+
+   </div>
+    
+
+
    
 
     
 
    
-  </div>
+
 </template>
 
 <script>
@@ -26,6 +35,13 @@ export default {
 </script>
 
 <style labg="scss" scoped>
+.cols{
+  
+  width: 100%;
+  
+  
+}
+
 
 
 

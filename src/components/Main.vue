@@ -1,13 +1,28 @@
 <template>
 <div class="cols">
   <div class="container">
-
-     <ProductCard 
+    <ul>
+      <li>
+                  <ProductCard 
      v-for="(product, index) in products"
      :key="index"
      :card="product"
      />
+
+      </li>
+    </ul>
+
+    
    
+
+   
+   
+  
+   
+
+    
+
+    
     
 
      
@@ -58,12 +73,14 @@ export default {
 <style lang="scss" scoped>
 
 .cols{
-   display: flex;
-  // flex-wrap: wrap;
+  
   width: 100%;
-  height: 400px;
+  height: 300px;
+  background-color: black;
+  
+  
  
-   background-image: url(../assets/img/jumbotron.jpg);
+  //  background-image: url(../assets/img/jumbotron.jpg);
    
 
  
