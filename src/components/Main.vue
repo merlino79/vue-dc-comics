@@ -1,19 +1,32 @@
 <template>
 <div class="cols">
   <div class="container">
-   
+
      <ProductCard 
      v-for="(product, index) in products"
      :key="index"
      :card="product"
      />
+   
+    
+
+     
      
 
 
   </div>
+  
+     
+
+
+  
+  
+  
  
   
 </div>
+
+
   
 </template>
 
@@ -35,7 +48,7 @@ export default {
     }
   },
   mounted(){
-    console.log(products);
+    //console.log(products);
   }
 
 
@@ -45,13 +58,19 @@ export default {
 <style lang="scss" scoped>
 
 .cols{
+   display: flex;
+  // flex-wrap: wrap;
   width: 100%;
-  height: 140px;
-  line-height: 140px;
-   background-color: #1C1C1C;
+  height: 400px;
+ 
+   background-image: url(../assets/img/jumbotron.jpg);
+   
+
+ 
   h3{
     color: azure;
   }
+  
 }
 
 

@@ -1,8 +1,17 @@
 <template>
-  <div class="coils">
+  <div class="cols">
+    <div class="box-img">
+      <img :src="card.thumb" :alt="card.type">
+    <h3>
+       {{card.type}}
+    </h3>
 
-   <img :src="card.thumb" :alt="card.type">
+    </div>
+   
 
+    
+
+   
   </div>
 </template>
 
@@ -17,8 +26,13 @@ export default {
 </script>
 
 <style labg="scss" scoped>
-.coils{
-  text-align: center;
-}
+
+
+
+
+
+
+ 
+  
 
 </style>
