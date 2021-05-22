@@ -1,48 +1,18 @@
 <template>
 <div class="cols">
-  <div class="container">
-    <ul>
-      <li>
+  <div class="ac-container">
+    
                   <ProductCard 
      v-for="(product, index) in products"
      :key="index"
      :card="product"
      />
 
-      </li>
-    </ul>
-
-    
    
+  </div>  
 
+</div>   
    
-   
-  
-   
-
-    
-
-    
-    
-
-     
-     
-
-
-  </div>
-  
-     
-
-
-  
-  
-  
- 
-  
-</div>
-
-
-  
 </template>
 
 <script>
@@ -77,6 +47,11 @@ export default {
   width: 100%;
   height: 300px;
   background-color: black;
+  .ac-container{
+    display: flex;
+    
+   
+  }
   
   
  
@@ -92,3 +67,30 @@ export default {
 
 
 </style>
+   
+   
+  
+   
+
+    
+
+    
+    
+
+     
+     
+
+
+  
+     
+
+
+  
+  
+  
+ 
+  
+
+
+
+  

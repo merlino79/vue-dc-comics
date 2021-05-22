@@ -1,15 +1,15 @@
 <template>
 
    <div class="cols">
-     <ul>
-       <li>
-         <a href="/">
-             <img :src="card.thumb" :alt="card.type">
-              
-         </a>
 
-       </li>
-     </ul>
+       <img :src="card.thumb" :alt="card.type">
+    
+       
+      
+           
+              
+     
+
    
 
    </div>
@@ -37,7 +37,7 @@ export default {
 <style labg="scss" scoped>
 .cols{
   
-  width: 100%;
+  flex-basis: calc(100% / 4);
   
   
 }
