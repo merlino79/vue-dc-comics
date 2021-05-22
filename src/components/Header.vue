@@ -9,7 +9,7 @@
     </a>
    
     <ul>
-      <li v-for="(link, index) in links" :key="index">
+      <li v-for="(link, index) in menu" :key="index">
        <a :href="link.url"
        :class="{'active': link.current}"
        >
@@ -18,7 +18,7 @@
       </li>
       
       
-    </ul>
+    </ul> 
     
 
   
@@ -34,64 +34,14 @@
 <script>
 export default {
   name: 'Header',
+  props:{
+        menu: Array
+      }, 
   data(){
+
     return{
-      links: [
-        {
-          text: 'characters',
-          url: '#',
-          current: false 
-        },
-        {
-          text: 'comics',
-          url: '/',
-          current: true
-        },
-        {
-          text: 'Movies',
-          url: '#',
-          current: false 
-        },
-        {
-          text: 'tv',
-          url: '#',
-          current: false 
-        },
-        {
-          text: 'games',
-          url: '#',
-          current: false 
-        },
-        {
-          text: ' collectibles',
-          url: '#',
-          current: false 
-        },
-        {
-          text: ' videos',
-          url: '#',
-          current: false 
-        },
-        {
-          text: ' fans',
-          url: '#',
-          current: false 
-        },
-        {
-          text: 'news',
-          url: '#',
-          current: false 
-        },
-        {
-          text: ' shop',
-          url: '#',
-          current: false 
-        },
-
-         
-        
-
-      ]
+      links: [],
+      
     }
   }
 
