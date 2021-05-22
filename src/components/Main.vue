@@ -1,10 +1,14 @@
 <template>
 <div class="cols">
   <div class="container">
-   <h3>
-     <ProductCard />
+   
+     <ProductCard 
+     v-for="(product, index) in products"
+     :key="index"
+     :card="product"
+     />
      
-  </h3>
+
 
   </div>
  
