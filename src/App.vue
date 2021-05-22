@@ -6,6 +6,7 @@
     <Comics />
     <Footer />
     <FooterBotton />
+    <ProductCard />
     
     
   </div>
@@ -18,6 +19,7 @@ import Main from '@/components/Main.vue'
 import Comics from '@/components/Comics.vue'
 import Footer from '@/components/Footer.vue'
 import FooterBotton from '@/components/FooterBotton.vue'
+import ProductCard from '@/components/ProductCard.vue'
 
 
 
@@ -87,6 +89,7 @@ export default {
     Comics,
     Footer,
     FooterBotton,
+    ProductCard,
     
     
   }

@@ -1,8 +1,8 @@
 <template>
 <div class="cols">
   <div class="container">
-     <h3>
-    -----> Contect goes here --------> 
+   <h3>
+     <ProductCard />
      
   </h3>
 
@@ -14,9 +14,17 @@
 </template>
 
 <script>
+
 import products from "@/assets/data/dc-comics.js"; 
+import ProductCard from "@/components/ProductCard"; 
+
 export default {
+
   name: 'Main',
+  components:{
+    ProductCard
+    
+  },
   data(){
     return{
       products
