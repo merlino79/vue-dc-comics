@@ -36,10 +36,7 @@ export default {
 
 <style labg="scss" scoped>
 .cols{
-  
-  flex-basis: calc(100% / 4);
-  
-  
+  flex-basis: calc(100% / 4 ) ;
 }
 
 

@@ -23,10 +23,9 @@ import ProductCard from "@/components/ProductCard";
 export default {
 
   name: 'Main',
-  components:{
-    ProductCard
-    
-  },
+   components: { ProductCard },
+
+  
   data(){
     return{
       products
@@ -44,26 +43,31 @@ export default {
 
 .cols{
   
-  width: 100%;
-  height: 300px;
-  background-color: black;
-  .ac-container{
-    display: flex;
-    
-   
-  }
+ 
   
+ 
+  height: 100%;
+  background-color: black;
+  
+  
+}  
+.ac-container{
+  
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-around;
+  
+}
   
  
   //  background-image: url(../assets/img/jumbotron.jpg);
    
 
  
-  h3{
-    color: azure;
-  }
+ 
   
-}
+
 
 
 </style>
